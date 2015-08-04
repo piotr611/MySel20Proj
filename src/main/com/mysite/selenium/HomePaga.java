@@ -15,6 +15,7 @@ public class HomePaga {
         System.out.println(driver.getTitle());
         System.out.println(driver.getTitle());
         System.out.println(driver.getTitle());
+        System.out.println(driver.getTitle());
 
         driver.close();
         /*
