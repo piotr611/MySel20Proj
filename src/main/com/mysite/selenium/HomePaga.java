@@ -1,6 +1,7 @@
 package com.mysite.selenium;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -15,7 +16,7 @@ public class HomePaga {
 
         WebElement query = driver.findElement(By.name("q"));
         query.sendKeys("hotel in Milane");
-
+        query.sendKeys(Keys.ENTER);
 
         System.out.println(driver.getTitle());
 
