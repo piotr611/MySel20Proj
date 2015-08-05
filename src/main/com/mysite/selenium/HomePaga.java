@@ -14,6 +14,7 @@ public class HomePaga {
         driver.get("http://google.com");
 
         System.out.println(driver.getTitle());
+
         System.out.println(driver.getTitle());
         System.out.println(driver.getTitle());
         System.out.println(driver.getTitle());
